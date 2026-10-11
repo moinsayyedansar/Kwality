@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+# The original home page now lives in design-reference/. Send the site root there
+# (a redirect, so its relative script paths still resolve).
+[[redirects]]
+  from = "/"
+  to = "/design-reference/Main.dc.html"
+  status = 302
